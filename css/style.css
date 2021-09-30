@@ -5,19 +5,27 @@
 /**************************************************/
 
 #hero {
-  background-color: azure;
+  background-color: #ffffff;
+}
+#hero div {
+  justify-items: center;
+  align-items: start;
+}
+
+#hero div * {
+  grid-area: 1/1/-1/-1;
 }
 
 #voresis {
-  background-color: lightyellow;
+  background-color: #ffffff;
 }
 
 #tilbud {
-  background-color: burlywood;
+  background-color: #ffffff;
 }
 
 #omos {
-  background-color: lavender;
+  background-color: #ffffff;
 }
 
 /**************************************************/
